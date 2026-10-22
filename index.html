@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Escolha o dia do seu aniversário e leia o que foi notícia sobre a família Bolsonaro naquela data, com link para a matéria.">
+</head>
+<body>
+<title>Bolsonaro 365</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@300..600&display=swap">
+<style>
+/* Layout: uma coluna estreita, preto sobre branco, quase nada além do texto.
+   A bandeira em traço fino é só o logo. */
+:root {
+  --bg: #FFFFFF; --bg-2: #F4F5F4; --fg: #111312; --fg-2: #5E6461; --fg-3: #9EA3A0; --line: #E8EAE9;
+  --ok: #0F8A4B; --qr-bg: #FFFFFF;
+  --sans: "Geist", ui-sans-serif, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --bg: #0B0C0C; --bg-2: #151717; --ok: #1FA862; --fg: #ECEEED; --fg-2: #9BA19E; --fg-3: #5F6562; --line: #222524; color-scheme: dark; }
+}
+:root[data-theme="dark"] { --bg: #0B0C0C; --bg-2: #151717; --ok: #1FA862; --fg: #ECEEED; --fg-2: #9BA19E; --fg-3: #5F6562; --line: #222524; color-scheme: dark; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+body {
+  background: var(--bg); color: var(--fg); font: 400 16px/1.65 var(--sans); -webkit-font-smoothing: antialiased; margin: 0;
+  padding-left: max(24px, env(safe-area-inset-left, 0px)); padding-right: max(24px, env(safe-area-inset-right, 0px));
+}
+:focus-visible { outline: 1px solid var(--fg); outline-offset: 4px; }
+.wrap { max-width: 600px; margin: 0 auto; }
+
+.logo { display: flex; align-items: center; gap: 10px; padding-block: 28px; font-size: 14px; font-weight: 500; }
+.logo svg { width: 22px; color: var(--fg); }
+.logo svg * { fill: none; stroke: currentColor; stroke-width: 1; vector-effect: non-scaling-stroke; }
+
+.topo { min-height: 80vh; display: grid; align-content: center; gap: 28px; padding-block: 40px 80px; }
+h1 { font-size: clamp(30px, 5vw, 44px); line-height: 1.15; letter-spacing: -.03em; font-weight: 500; margin: 0; text-wrap: balance; }
+h1 span { color: var(--fg-3); }
+.lead { font-size: 16px; color: var(--fg-2); margin: 0; max-width: 46ch; }
+.busca { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; padding-top: 8px; }
+.campo { display: flex; align-items: baseline; gap: 6px; border-bottom: 1px solid var(--fg); }
+.campo select { appearance: none; -webkit-appearance: none; border: 0; background: transparent; color: var(--fg); font: 400 22px var(--sans); padding: 6px 2px; cursor: pointer; font-variant-numeric: tabular-nums; }
+.campo span { color: var(--fg-3); }
+.btn { font: 500 14px var(--sans); border: 1px solid var(--fg); cursor: pointer; border-radius: 999px; padding: 10px 20px; background: var(--fg); color: var(--bg); transition: opacity .15s; }
+.btn:hover { opacity: .8; }
+.link { font: 400 14px var(--sans); border: 0; background: none; color: var(--fg); padding: 0; cursor: pointer; text-decoration: underline; text-underline-offset: 4px; text-decoration-color: var(--fg-3); }
+
+.materia { min-height: 100vh; padding-block: 72px 96px; display: grid; align-content: start; gap: 20px; border-top: 1px solid var(--line); }
+.quando { font-size: 13px; color: var(--fg-3); margin: 0; }
+.materia h2 { font-size: clamp(24px, 3.6vw, 30px); line-height: 1.2; letter-spacing: -.02em; font-weight: 500; margin: 0; text-wrap: balance; }
+.materia p { margin: 0; font-size: 17px; color: var(--fg-2); text-wrap: pretty; }
+.materia p.resp { font-size: 15px; color: var(--fg-3); }
+.rodape { display: flex; flex-wrap: wrap; gap: 8px 24px; padding-top: 12px; }
+.rodape a { font-size: 14px; color: var(--fg); text-underline-offset: 4px; text-decoration-color: var(--fg-3); }
+/* apoio: cartão com QR do Pix (BR Code estático) e botão de copia e cola */
+.apoio { margin-top: 56px; padding: 28px; background: var(--bg-2); border-radius: 22px; display: grid; grid-template-columns: 1fr auto; gap: 28px; align-items: center; }
+.apoio > * { min-width: 0; }
+.apoio .rot { font-size: 12px; color: var(--fg-3); letter-spacing: .02em; margin: 0 0 10px; }
+.apoio h3 { margin: 0 0 8px; font-size: 21px; line-height: 1.25; font-weight: 500; letter-spacing: -.02em; text-wrap: balance; }
+.apoio p.desc { font-size: 15px; margin: 0 0 20px; }
+.copiar { display: inline-flex; align-items: center; gap: 10px; font: 500 14px var(--sans); border: 0; cursor: pointer; border-radius: 999px; padding: 12px 18px; background: var(--fg); color: var(--bg); transition: transform .15s, opacity .15s; }
+.copiar:hover { opacity: .85; }
+.copiar:active { transform: scale(.98); }
+.copiar svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.6; }
+.copiar.ok { background: var(--ok); color: #FFFFFF; }
+.apoio .dica { font-size: 12px; color: var(--fg-3); margin: 14px 0 0; max-width: 34ch; }
+.qr { width: 156px; aspect-ratio: 1; padding: 12px; border-radius: 16px; background: var(--qr-bg); box-shadow: 0 1px 0 var(--line), 0 12px 32px -18px rgba(0,0,0,.35); display: grid; place-items: center; }
+.qr svg { width: 100%; height: 100%; display: block; }
+.manual { width: 100%; margin-top: 12px; font: 400 12px var(--sans); color: var(--fg-2); background: var(--bg); border: 1px solid var(--line); border-radius: 10px; padding: 10px; }
+
+/* fim: três notas curtas e uma linha de assinatura */
+.fim { margin-top: 72px; display: grid; gap: 32px; }
+.notas { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.notas > div { min-width: 0; border-left: 1px solid var(--line); padding-left: 14px; }
+.notas h4 { margin: 0 0 6px; font-size: 13px; font-weight: 500; color: var(--fg); }
+.materia .notas p { font-size: 13px; line-height: 1.55; color: var(--fg-2); }
+.assina { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; padding-top: 20px; border-top: 1px solid var(--line); font-size: 12px; color: var(--fg-3); }
+.assina .marca { display: flex; align-items: center; gap: 8px; color: var(--fg); font-weight: 500; font-size: 13px; }
+.assina svg { width: 18px; }
+.assina svg * { fill: none; stroke: currentColor; stroke-width: 1; vector-effect: non-scaling-stroke; }
+@media (max-width: 560px) {
+  .apoio { grid-template-columns: 1fr; padding: 24px; }
+  .qr { width: 132px; }
+  .notas { grid-template-columns: 1fr; gap: 18px; }
+}
+</style>
+
+<div class="wrap">
+  <div class="logo">
+    <svg viewBox="0 0 100 70" aria-hidden="true">
+      <rect x=".5" y=".5" width="99" height="69" rx="1"></rect>
+      <path d="M 50 7 L 92 35 L 50 63 L 8 35 Z"></path>
+      <circle cx="50" cy="35" r="19"></circle>
+      <path d="M 31.4 31 Q 50 22 68.8 32"></path>
+    </svg>
+    Bolsonaro 365
+  </div>
+
+  <header class="topo" id="topo">
+    <h1>O que a família Bolsonaro fazia <span>no dia do seu aniversário?</span></h1>
+    <form class="busca" id="form" aria-label="Escolher data de aniversário">
+      <div class="campo">
+        <select id="dia" aria-label="Dia"></select>
+        <span>de</span>
+        <select id="mes" aria-label="Mês"></select>
+      </div>
+      <button class="btn" type="submit">Ver</button>
+    </form>
+  </header>
+
+  <article class="materia" id="materia" hidden aria-live="polite"></article>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="casos.js"></script>
+<script>
+const PIX = "b93dbf3d-611e-4d3a-ac9f-e32bb3058272";
+
+// BR Code estático do Pix (padrão EMV do Banco Central), sem valor fixo
+function campo(id, v) { return id + String(v.length).padStart(2, "0") + v; }
+function crc16(s) {
+  let c = 0xFFFF;
+  for (let i = 0; i < s.length; i++) {
+    c ^= s.charCodeAt(i) << 8;
+    for (let j = 0; j < 8; j++) c = c & 0x8000 ? (c << 1) ^ 0x1021 : c << 1;
+    c &= 0xFFFF;
+  }
+  return c.toString(16).toUpperCase().padStart(4, "0");
+}
+const PIX_BR = (() => {
+  const s = campo("00", "01") + campo("26", campo("00", "br.gov.bcb.pix") + campo("01", PIX)) +
+    campo("52", "0000") + campo("53", "986") + campo("58", "BR") + campo("59", "BOLSONARO 365") +
+    campo("60", "BRASIL") + campo("62", campo("05", "***")) + "6304";
+  return s + crc16(s);
+})();
+function desenharQR() {
+  const alvo = $("qr");
+  if (!window.qrcode) { alvo.hidden = true; return; }
+  const q = qrcode(0, "M"); q.addData(PIX_BR); q.make();
+  alvo.innerHTML = q.createSvgTag({ cellSize: 4, margin: 0, scalable: true });
+}
+const MESES = ["janeiro","fevereiro","março","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro"];
+const DIAS_MES = [31,29,31,30,31,30,31,31,30,31,30,31];
+const doy = (m, d) => Math.round((Date.UTC(2024, m - 1, d) - Date.UTC(2024, 0, 1)) / 864e5); // ano bissexto: 29/02 conta
+const p2 = n => String(n).padStart(2, "0");
+const CASOS = window.CASOS.map(c => { const [y, m, d] = c.d.split("-").map(Number); return { ...c, y, m, dd: d, doy: doy(m, d) }; });
+
+const $ = id => document.getElementById(id);
+const selDia = $("dia"), selMes = $("mes");
+MESES.forEach((n, i) => selMes.add(new Option(n, i + 1)));
+function preencherDias() {
+  const atual = +selDia.value || 1, max = DIAS_MES[selMes.value - 1];
+  selDia.innerHTML = "";
+  for (let i = 1; i <= max; i++) selDia.add(new Option(i, i));
+  selDia.value = Math.min(atual, max);
+}
+
+function delta(c, u) { let x = c.doy - u; if (x > 183) x -= 366; if (x < -183) x += 366; return x; }
+
+function mostrar(m, d) {
+  const u = doy(m, d);
+  let c = CASOS[0];
+  for (const x of CASOS) if (Math.abs(delta(x, u)) < Math.abs(delta(c, u))) c = x;
+  const dl = delta(c, u), n = Math.abs(dl);
+  const quem = c.quem || (c.pessoa === "jair" ? "Jair Bolsonaro" : "Flávio Bolsonaro");
+  const perto = dl === 0 ? "" : ` · nada em ${d} de ${MESES[m - 1]}, esse é de ${n} ${n === 1 ? "dia" : "dias"} ${dl > 0 ? "depois" : "antes"}`;
+  const el = $("materia");
+  el.innerHTML = `
+    <p class="quando">${c.dd} de ${MESES[c.m - 1]} de ${c.y} · ${quem}${perto}</p>
+    <h2>${c.titulo}</h2>
+    <p>${c.texto}</p>
+    ${c.resp ? `<p class="resp">${c.resp}</p>` : ""}
+    <div class="rodape">
+      <a href="${c.fontes[0].u}" target="_blank" rel="noopener">Ler a matéria ↗</a>
+      <button class="link" type="button" id="outra">Outra data</button>
+    </div>
+    <section class="apoio" aria-label="Apoie o site">
+      <div>
+        <p class="rot">Apoie</p>
+        <h3>Ajude a manter o Bolsonaro 365 no ar</h3>
+        <p class="desc">O site é independente. Qualquer valor ajuda a checar e ampliar o acervo.</p>
+        <button class="copiar" type="button" id="copiar-pix">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2.5"></rect><path d="M16 8V6.5A2.5 2.5 0 0 0 13.5 4h-7A2.5 2.5 0 0 0 4 6.5v7A2.5 2.5 0 0 0 6.5 16H8"></path></svg>
+          <span>Copiar Pix copia e cola</span>
+        </button>
+        <p class="dica">Abra o app do banco, escolha Pix copia e cola ou aponte a câmera para o QR code.</p>
+        <div id="pix-manual"></div>
+      </div>
+      <div class="qr" id="qr" role="img" aria-label="QR code do Pix"></div>
+    </section>
+    <footer class="fim">
+      <div class="notas">
+        <div><h4>Fontes</h4><p>Cada caso vem de reportagem ou documento oficial, com link para a matéria. Conteúdo informativo e de crítica política.</p></div>
+        <div><h4>Presunção de inocência</h4><p>Denúncia, investigação ou processo não é prova de culpa. Casos anulados ou arquivados aparecem como tal.</p></div>
+        <div><h4>Atualização</h4><p>Relatos conforme as fontes até 22/10/2026, sujeitos a desdobramentos. A matéria traz a íntegra e a versão dos envolvidos.</p></div>
+      </div>
+      <div class="assina">
+        <span class="marca"><svg viewBox="0 0 100 70" aria-hidden="true"><rect x=".5" y=".5" width="99" height="69" rx="1"></rect><path d="M 50 7 L 92 35 L 50 63 L 8 35 Z"></path><circle cx="50" cy="35" r="19"></circle><path d="M 31.4 31 Q 50 22 68.8 32"></path></svg>Bolsonaro 365</span>
+        <span>Leia, confira e compartilhe.</span>
+      </div>
+    </footer>`;
+  desenharQR();
+  $("copiar-pix").onclick = e => {
+    const b = e.currentTarget, rot = b.querySelector("span");
+    navigator.clipboard.writeText(PIX_BR).then(() => {
+      b.classList.add("ok"); rot.textContent = "Copiado";
+      setTimeout(() => { b.classList.remove("ok"); rot.textContent = "Copiar Pix copia e cola"; }, 2000);
+    }).catch(() => {
+      $("pix-manual").innerHTML = `<input class="manual" id="pix-campo" readonly aria-label="Código Pix copia e cola">`;
+      const i = $("pix-campo"); i.value = PIX_BR; i.focus(); i.select();
+    });
+  };
+  el.hidden = false;
+  $("outra").onclick = () => { $("topo").scrollIntoView(); selDia.focus({ preventScroll: true }); };
+  requestAnimationFrame(() => el.scrollIntoView());
+}
+
+selMes.addEventListener("change", preencherDias);
+$("form").addEventListener("submit", e => { e.preventDefault(); mostrar(+selMes.value, +selDia.value); });
+
+const hoje = new Date();
+selMes.value = hoje.getMonth() + 1; preencherDias(); selDia.value = hoje.getDate();
+</script>
+
+</body>
+</html>
