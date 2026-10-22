@@ -88,6 +88,24 @@ window.CASOS = [
   ]
  },
  {
+  "d": "2017-10-03",
+  "t": "sem",
+  "pessoa": "jair",
+  "quem": "Jair Bolsonaro",
+  "titulo": "Bolsonaro é condenado por ofender quilombolas",
+  "texto": "Em 3 de outubro de 2017, a Justiça Federal do Rio condenou o então deputado Jair Bolsonaro a pagar R$ 50 mil por danos morais coletivos por declarações sobre quilombolas e a população negra numa palestra no Clube Hebraica, em abril daquele ano. A juíza afastou a imunidade parlamentar, por entender que ela não cobre manifestações estranhas ao mandato que ofendam grupos; a defesa disse que recorreria.",
+  "fontes": [
+   {
+    "n": "Migalhas",
+    "u": "https://www.migalhas.com.br/quentes/266489/bolsonaro-e-condenado-em-r-50-mil-por-ofensas-ao-povo-quilombola"
+   },
+   {
+    "n": "Congresso em Foco",
+    "u": "https://www.congressoemfoco.com.br/noticias/justica-condena-bolsonaro-por-ofender-quilombolas/"
+   }
+  ]
+ },
+ {
   "d": "2018-01-07",
   "t": "sem",
   "pessoa": "flavio",
@@ -312,6 +330,24 @@ window.CASOS = [
    {
     "n": "Poder360",
     "u": "https://www.poder360.com.br/justica/fabricio-queiroz-entrega-atestado-para-justificar-falta-em-depoimentos/"
+   }
+  ]
+ },
+ {
+  "d": "2019-01-04",
+  "t": "sem",
+  "pessoa": "jair",
+  "quem": "Jair Bolsonaro",
+  "titulo": "Bolsonaro anuncia alta do IOF e é desmentido pela equipe",
+  "texto": "Em 4 de janeiro de 2019, Bolsonaro disse a jornalistas que havia assinado decreto aumentando o IOF e que reduziria a alíquota máxima do Imposto de Renda. No mesmo dia, o secretário da Receita, Marcos Cintra, e o ministro Onyx Lorenzoni contradisseram o presidente: segundo Onyx, Bolsonaro 'se equivocou' e não haveria aumento de imposto.",
+  "fontes": [
+   {
+    "n": "Poder360",
+    "u": "https://www.poder360.com.br/governo/onyx-diz-que-bolsonaro-se-equivocou-e-nega-que-havera-aumento-do-iof/"
+   },
+   {
+    "n": "Agência Brasil",
+    "u": "https://agenciabrasil.ebc.com.br/economia/noticia/2019-01/governo-nao-vai-aumentar-impostos-afirma-onyx"
    }
   ]
  },
@@ -1082,6 +1118,24 @@ window.CASOS = [
   ]
  },
  {
+  "d": "2020-03-09",
+  "t": "sem",
+  "pessoa": "jair",
+  "quem": "Jair Bolsonaro",
+  "titulo": "Em Miami, Bolsonaro diz que houve fraude em 2018",
+  "texto": "Em 9 de março de 2020, em evento em Miami, Bolsonaro afirmou que houve fraude na eleição de 2018, que teria vencido já no primeiro turno e que mostraria as provas 'brevemente'. Ele nunca apresentou essas provas; segundo o Aos Fatos, a promessa jamais foi cumprida e alimentou a campanha de desinformação contra as urnas.",
+  "fontes": [
+   {
+    "n": "Jovem Pan",
+    "u": "https://jovempan.com.br/brasil/bolsonaro-diz-nos-eua-que-houve-fraude-no-1o-turno-da-eleicao-de-2018/"
+   },
+   {
+    "n": "Aos Fatos",
+    "u": "https://www.aosfatos.org/noticias/desinformacao-urnas-abasteceu-artilharia-bolsonaro-contra-sistema-eleitoral/"
+   }
+  ]
+ },
+ {
   "d": "2020-03-11",
   "t": "dec",
   "pessoa": "flavio",
@@ -1095,6 +1149,24 @@ window.CASOS = [
    {
     "n": "O Antagonista",
     "u": "https://oantagonista.com.br/brasil/justica-libera-investigacao-sobre-flavio-bolsonaro/"
+   }
+  ]
+ },
+ {
+  "d": "2020-03-12",
+  "t": "sem",
+  "pessoa": "jair",
+  "quem": "Jair Bolsonaro",
+  "titulo": "De máscara, Bolsonaro sugere adiar atos que ele convocou",
+  "texto": "Em live de 12 de março de 2020, de máscara e ao lado de Mandetta, Bolsonaro sugeriu adiar os atos pró-governo de 15 de março por causa do coronavírus. Segundo o Aos Fatos, a posição foi contraditória: ele havia convocado as manifestações e, no domingo, foi cumprimentar apoiadores no Planalto, contrariando a orientação sanitária.",
+  "fontes": [
+   {
+    "n": "Aos Fatos",
+    "u": "https://www.aosfatos.org/noticias/todas-as-declaracoes-de-bolsonaro-sobre-coronavirus-checadas/"
+   },
+   {
+    "n": "Congresso em Foco",
+    "u": "https://congressoemfoco.com.br/saude/suspeito-de-ter-contraido-coronavirus-bolsonaro-faz-live-de-mascara-assista"
    }
   ]
  },
@@ -1126,6 +1198,74 @@ window.CASOS = [
    {
     "n": "Jornal de Brasília",
     "u": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/flavio-bolsonaro-compartilha-foto-falsa-sobre-cura-do-coronavirus/"
+   }
+  ]
+ },
+ {
+  "d": "2020-04-01",
+  "t": "sem",
+  "pessoa": "jair",
+  "quem": "Jair Bolsonaro",
+  "titulo": "Bolsonaro publica vídeo falso de desabastecimento na Ceasa",
+  "texto": "Em 1º de abril de 2020, Bolsonaro publicou nas redes um vídeo em que um homem dizia haver desabastecimento na Ceasa de Minas Gerais por causa das medidas de isolamento. A Secretaria de Agricultura de Minas e reportagens no local mostraram que a Ceasa funcionava normalmente; o presidente apagou o post e pediu desculpas no mesmo dia.",
+  "fontes": [
+   {
+    "n": "A Gazeta",
+    "u": "https://www.agazeta.com.br/brasil/bolsonaro-publica-video-falso-sobre-desabastecimento-e-depois-apaga-0420"
+   },
+   {
+    "n": "Jornal de Brasília",
+    "u": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/e-fake-bolsonaro-compartilha-video-com-falsas-informacoes-sobre-ceasa/"
+   }
+  ]
+ },
+ {
+  "d": "2020-04-09",
+  "t": "sem",
+  "pessoa": "jair",
+  "quem": "Jair Bolsonaro",
+  "titulo": "Em plena quarentena, Bolsonaro causa aglomeração em padaria",
+  "texto": "No fim da tarde de 9 de abril de 2020, Bolsonaro fez visita surpresa a uma padaria da Asa Norte, em Brasília, abraçou funcionários, posou para fotos e causou aglomeração, contrariando o Ministério da Saúde. Segundo reportagens, ele também consumiu alimentos no local, o que um decreto do governo do DF proibia naquele momento, e foi alvo de protestos das janelas.",
+  "fontes": [
+   {
+    "n": "Banda B",
+    "u": "https://www.bandab.com.br/politica/bolsonaro-volta-a-contrariar-ministerio-da-saude-e-causa-aglomeracao-em-padaria/amp/"
+   }
+  ]
+ },
+ {
+  "d": "2020-04-10",
+  "t": "sem",
+  "pessoa": "jair",
+  "quem": "Jair Bolsonaro",
+  "titulo": "'Ninguém vai tolher meu direito de ir e vir'",
+  "texto": "Na Sexta-feira Santa, 10 de abril de 2020, Bolsonaro fez novo passeio por Brasília em plena quarentena, parou numa drogaria, tirou fotos com apoiadores e causou aglomeração. 'Ninguém vai tolher meu direito de ir e vir', afirmou, contrariando as recomendações de isolamento social do próprio Ministério da Saúde.",
+  "fontes": [
+   {
+    "n": "A Gazeta",
+    "u": "https://www.agazeta.com.br/brasil/ninguem-vai-tolher-meu-direito-de-ir-e-vir-diz-bolsonaro-em-novo-passeio-0420"
+   },
+   {
+    "n": "Jornal do Comércio",
+    "u": "https://www.jornaldocomercio.com/_conteudo/politica/2020/04/734054-ninguem-vai-tolher-meu-direito-de-ir-e-vir--diz-bolsonaro-em-novo-passeio.html"
+   }
+  ]
+ },
+ {
+  "d": "2020-04-16",
+  "t": "sem",
+  "pessoa": "jair",
+  "quem": "Jair Bolsonaro",
+  "titulo": "Ao demitir Mandetta: 'a vida não tem preço, mas...'",
+  "texto": "Em 16 de abril de 2020, ao anunciar a demissão do ministro da Saúde, Luiz Henrique Mandetta, defensor do isolamento social, Bolsonaro disse que 'a vida não tem preço, mas a economia, o emprego, tem que voltar à normalidade'. A troca, no meio da escalada da pandemia, foi criticada por Rodrigo Maia e Davi Alcolumbre, que disseram em nota que a saída de Mandetta 'será sentida'.",
+  "fontes": [
+   {
+    "n": "Poder360",
+    "u": "https://poder360.com.br/governo/bolsonaro-diz-que-saida-de-mandetta-do-governo-foi-divorcio-consensual/"
+   },
+   {
+    "n": "A Gazeta",
+    "u": "https://www.agazeta.com.br/brasil/maia-e-alcolumbre-em-nota-saida-de-mandetta-nao-e-positiva-e-sera-sentida-0420"
    }
   ]
  },
@@ -1338,6 +1478,42 @@ window.CASOS = [
    {
     "n": "Jornal de Brasília",
     "u": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/urgente-celso-de-mello-autoriza-divulgacao-do-video-de-reuniao-ministerial/"
+   }
+  ]
+ },
+ {
+  "d": "2020-05-27",
+  "t": "sem",
+  "pessoa": "eduardo",
+  "quem": "Eduardo Bolsonaro",
+  "titulo": "Eduardo fala em 'momento de ruptura' em live",
+  "texto": "Em 27 de maio de 2020, em live no canal Terça Livre, Eduardo Bolsonaro disse que a questão não era mais se haveria uma ruptura institucional, mas quando, e defendeu uma 'medida enérgica' do presidente. A fala, feita após operação do inquérito das fake news, foi criticada por Rodrigo Maia, levou partidos ao Conselho de Ética e motivou apuração preliminar da PGR.",
+  "fontes": [
+   {
+    "n": "Exame",
+    "u": "https://exame.com/brasil/em-live-eduardo-bolsonaro-diz-que-esta-chegando-momento-de-ruptura/"
+   },
+   {
+    "n": "Metrópoles",
+    "u": "https://www.metropoles.com/brasil/eduardo-bolsonaro-questao-nao-e-mais-se-havera-ruptura-mas-quando"
+   }
+  ]
+ },
+ {
+  "d": "2020-05-28",
+  "t": "sem",
+  "pessoa": "jair",
+  "quem": "Jair Bolsonaro",
+  "titulo": "'Acabou, porra': Bolsonaro diz que não cumpre ordem absurda",
+  "texto": "Em 28 de maio de 2020, um dia depois da operação da PF no inquérito das fake news, Bolsonaro gritou 'Acabou, porra!' na saída do Alvorada e disse que 'ordens absurdas não se cumprem'. A declaração foi lida como recado ao ministro Alexandre de Moraes e ao STF.",
+  "fontes": [
+   {
+    "n": "Congresso em Foco",
+    "u": "https://www.congressoemfoco.com.br/governo/chega-porra-ordens-absurdas-nao-se-cumprem-bolsonaro-reage-ao-stf/"
+   },
+   {
+    "n": "Money Times",
+    "u": "https://www.moneytimes.com.br/estou-com-as-armas-da-democracia-na-mao-diz-bolsonaro-sobre-inquerito-das-fake-news/"
    }
   ]
  },
@@ -1759,6 +1935,24 @@ window.CASOS = [
   ]
  },
  {
+  "d": "2020-10-07",
+  "t": "sem",
+  "pessoa": "jair",
+  "quem": "Jair Bolsonaro",
+  "titulo": "'Acabei com a Lava Jato, não tem mais corrupção'",
+  "texto": "Em 7 de outubro de 2020, no lançamento do programa Voo Simples, no Planalto, Bolsonaro disse que tinha acabado com a Lava Jato 'porque não tem mais corrupção no governo'. A força-tarefa de Curitiba respondeu que a fala mostrava desconhecimento sobre seus trabalhos, e o presidente não tem prerrogativa para encerrar a operação, que cabe à PGR.",
+  "fontes": [
+   {
+    "n": "Congresso em Foco",
+    "u": "https://www.congressoemfoco.com.br/area/justica/acabei-com-lava-jato-porque-nao-tem-corrupcao-no-governo-diz-bolsonaro/"
+   },
+   {
+    "n": "Exame",
+    "u": "https://exame.com/brasil/bolsonaro-acabei-com-a-lava-jato-porque-nao-tem-mais-corrupcao"
+   }
+  ]
+ },
+ {
   "d": "2020-10-08",
   "t": "dec",
   "pessoa": "flavio",
@@ -1856,6 +2050,24 @@ window.CASOS = [
    {
     "n": "Sul21",
     "u": "https://sul21.com.br/?p=18548"
+   }
+  ]
+ },
+ {
+  "d": "2020-11-12",
+  "t": "sem",
+  "pessoa": "jair",
+  "quem": "Jair Bolsonaro",
+  "titulo": "Bolsonaro insinua que CoronaVac causou morte de voluntário",
+  "texto": "Em live de 12 de novembro de 2020, Bolsonaro disse que a morte de um voluntário dos testes da CoronaVac, que levou à suspensão temporária do estudo, poderia ser efeito colateral da vacina. Ele não apresentou nenhuma evidência; o Instituto Butantan afirmou que a morte não tinha relação com o imunizante.",
+  "fontes": [
+   {
+    "n": "Poder360",
+    "u": "https://www.poder360.com.br/coronavirus/bolsonaro-diz-que-coronavac-pode-ter-causado-suicidio-de-voluntario/"
+   },
+   {
+    "n": "BNews",
+    "u": "https://www.bnews.com.br/noticias/coronavirus/286767-bolsonaro-diz-que-suicidio-pode-ser-efeito-colateral-da-coronavac.html"
    }
   ]
  },
@@ -1982,6 +2194,24 @@ window.CASOS = [
    {
     "n": "A Gazeta",
     "u": "https://www.agazeta.com.br/brasil/apos-1-denuncia-mp-deve-investigar-flavio-por-lavagem-de-dinheiro-0121"
+   }
+  ]
+ },
+ {
+  "d": "2021-01-05",
+  "t": "sem",
+  "pessoa": "jair",
+  "quem": "Jair Bolsonaro",
+  "titulo": "'O Brasil está quebrado e eu não consigo fazer nada'",
+  "texto": "Em 5 de janeiro de 2021, Bolsonaro disse a apoiadores no Alvorada que o Brasil estava 'quebrado' e que ele não conseguia fazer nada, ao justificar o abandono da promessa de corrigir a tabela do Imposto de Renda. No dia seguinte, recuou e disse que o país estava 'uma maravilha'.",
+  "fontes": [
+   {
+    "n": "Congresso em Foco",
+    "u": "https://www.congressoemfoco.com.br/economia/o-brasil-esta-quebrado-eu-nao-consigo-fazer-nada-diz-bolsonaro/"
+   },
+   {
+    "n": "Diário do Nordeste",
+    "u": "https://diariodonordeste.verdesmares.com.br/negocios/brasil-esta-uma-maravilha-afirma-bolsonaro-apos-dizer-que-pais-esta-quebrado-1.3029981"
    }
   ]
  },
@@ -2508,6 +2738,24 @@ window.CASOS = [
   ]
  },
  {
+  "d": "2021-06-24",
+  "t": "sem",
+  "pessoa": "jair",
+  "quem": "Jair Bolsonaro",
+  "titulo": "Em live, Bolsonaro culpa digitação por preço da Covaxin",
+  "texto": "Na live de 24 de junho de 2021, Bolsonaro atribuiu a um 'problema de digitação' a diferença de preço da Covaxin, disse que a Amazônia não pega fogo por ser úmida e que o Brasil nunca fechou contrato de vacina sem aval da Anvisa. Segundo levantamento do Brasil de Fato, as afirmações são falsas: o contrato da Covaxin, de R$ 1,6 bilhão, foi assinado em fevereiro, antes da autorização de importação da Anvisa, em junho, e há registro de preço 1.000% acima do estimado pelo fabricante.",
+  "fontes": [
+   {
+    "n": "Brasil de Fato",
+    "u": "https://www.brasildefato.com.br/2021/06/25/em-live-nas-redes-bolsonaro-mentiu-uma-vez-a-cada-10-minutos-confira"
+   },
+   {
+    "n": "Jovem Pan",
+    "u": "https://jovempan.com.br/brasil/isso-e-ridiculo-nao-gastamos-um-centavo-com-a-covaxin-diz-bolsonaro-sobre-compra-de-vacina/"
+   }
+  ]
+ },
+ {
   "d": "2021-06-29",
   "t": "den",
   "pessoa": "jair",
@@ -2849,6 +3097,20 @@ window.CASOS = [
    }
   ],
   "pessoa": "flavio"
+ },
+ {
+  "d": "2021-12-02",
+  "t": "sem",
+  "pessoa": "jair",
+  "quem": "Jair Bolsonaro",
+  "titulo": "Bolsonaro reafirma que não se vacina: 'Deixa eu morrer'",
+  "texto": "Em live de 2 de dezembro de 2021, com a pandemia ainda em curso, Bolsonaro reafirmou que não tinha se vacinado contra a covid-19 e disse: 'Deixa eu morrer, problema é meu, tá?'. Segundo o Poder360, ele voltou a chamar as vacinas de experimentais e a dizer que a infecção anterior o deixava mais imune.",
+  "fontes": [
+   {
+    "n": "Poder360",
+    "u": "https://www.poder360.com.br/governo/bolsonaro-volta-a-dizer-que-nao-quer-se-vacinar-deixa-eu-morrer/"
+   }
+  ]
  },
  {
   "d": "2021-12-14",
@@ -3232,6 +3494,20 @@ window.CASOS = [
    {
     "n": "Poder360",
     "u": "https://www.poder360.com.br/economia/caixa-comeca-a-pagar-consignado-do-auxilio-brasil-nesta-3a-feira/"
+   }
+  ]
+ },
+ {
+  "d": "2022-10-13",
+  "t": "sem",
+  "pessoa": "jair",
+  "quem": "Jair Bolsonaro",
+  "titulo": "TSE suspende anúncio de Bolsonaro com vídeo editado de Lula",
+  "texto": "Em 13 de outubro de 2022, a ministra do TSE Maria Claudia Bucchianeri determinou a suspensão de uma propaganda da campanha de Jair Bolsonaro que exibia um vídeo manipulado em que Lula parecia defender o roubo de celulares para 'tomar uma cervejinha'. Segundo a Lupa, o trecho foi editado de uma entrevista de 2017 em que Lula dizia que a falta de perspectiva econômica empurrava pessoas para o crime.",
+  "fontes": [
+   {
+    "n": "Agência Lupa",
+    "u": "https://www.agencialupa.org/checagem/2025/12/02/no-flow-flavio-bolsonaro-erra-sobre-pix-pl-antifaccao-e-urnas/"
    }
   ]
  },
@@ -4114,6 +4390,24 @@ window.CASOS = [
   ]
  },
  {
+  "d": "2025-01-19",
+  "t": "sem",
+  "pessoa": "flavio",
+  "quem": "Flávio Bolsonaro",
+  "titulo": "Flávio voa dos EUA a Brasília em jato ligado a Vorcaro",
+  "texto": "Em 19 de janeiro de 2025, Flávio Bolsonaro viajou de Fort Lauderdale, na Flórida, a Brasília com a família num Legacy 650 operado pela Prime You, empresa que tinha Daniel Vorcaro, do Banco Master, entre os sócios, segundo a revista piauí. A viagem ocorreu durante as negociações do financiamento do filme Dark Horse; Flávio disse que o avião era do advogado Willer Tomaz e que não teve contato com Vorcaro.",
+  "fontes": [
+   {
+    "n": "Poder360",
+    "u": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-bolsonaro-viajou-dos-eua-para-brasilia-em-jato-de-vorcaro/"
+   },
+   {
+    "n": "Agência Brasil",
+    "u": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-09/flavio-usou-jatinho-ligado-vorcaro-em-viagem-em-2025-diz-revista"
+   }
+  ]
+ },
+ {
   "d": "2025-02-18",
   "t": "den",
   "pessoa": "jair",
@@ -4378,6 +4672,24 @@ window.CASOS = [
   ]
  },
  {
+  "d": "2025-07-24",
+  "t": "sem",
+  "pessoa": "jair",
+  "quem": "Jair Bolsonaro",
+  "titulo": "Bolsonaro é condenado por dizer que 'pintou um clima'",
+  "texto": "Em 24 de julho de 2025, a 5ª Turma Cível do TJDFT condenou Jair Bolsonaro, por 3 votos a 2, a pagar R$ 150 mil por danos morais coletivos pela fala de 2022 em que disse que 'pintou um clima' com adolescentes venezuelanas. Segundo o tribunal, a declaração levou sofrimento e assédio às jovens e suas famílias; a defesa disse ter recebido a decisão com surpresa.",
+  "fontes": [
+   {
+    "n": "Poder360",
+    "u": "https://www.poder360.com.br/poder-justica/bolsonaro-e-condenado-por-fala-sobre-venezuelanas/"
+   },
+   {
+    "n": "CNN Brasil",
+    "u": "https://www.cnnbrasil.com.br/politica/justica-do-df-condena-bolsonaro-por-fala-pintou-um-clima/"
+   }
+  ]
+ },
+ {
   "d": "2025-08-03",
   "t": "sem",
   "pessoa": "carlos",
@@ -4388,6 +4700,20 @@ window.CASOS = [
    {
     "n": "O Liberal (Estadão Conteúdo)",
     "u": "https://www.oliberal.com/politica/carlos-bolsonaro-mantem-no-ar-postagem-citada-em-decisao-de-moraes-contra-ex-presidente-1.1001886"
+   }
+  ]
+ },
+ {
+  "d": "2025-08-05",
+  "t": "sem",
+  "pessoa": "flavio",
+  "quem": "Flávio Bolsonaro",
+  "titulo": "Flávio diz que postou vídeo do pai por conta própria",
+  "texto": "Em entrevista ao Estadão em 5 de agosto de 2025, um dia após a prisão domiciliar de Jair Bolsonaro, Flávio disse: 'Fui eu que postei, não foi o presidente Bolsonaro que pediu para postar'. Segundo a Lupa, falta contexto: o post reproduzia conteúdo gravado pelo ex-presidente e violou medidas cautelares do STF, que o proibiam de usar redes sociais diretamente ou por meio de terceiros.",
+  "fontes": [
+   {
+    "n": "Agência Lupa",
+    "u": "https://www.agencialupa.org/jornalismo/2025/08/05/bolsonaro-preso-checamos-declaracoes-de-politicos-apos-decisao-de-moraes/"
    }
   ]
  },
@@ -4551,6 +4877,24 @@ window.CASOS = [
    {
     "n": "O Povo",
     "u": "https://www.opovo.com.br/noticias/politica/2025/11/26/stf-conclui-julgamento-que-torna-eduardo-bolsonaro-reu.html"
+   }
+  ]
+ },
+ {
+  "d": "2025-11-16",
+  "t": "sem",
+  "pessoa": "flavio",
+  "quem": "Flávio Bolsonaro",
+  "titulo": "'Estou e estarei contigo sempre', escreve Flávio a Vorcaro",
+  "texto": "Em 16 de novembro de 2025, véspera da prisão de Daniel Vorcaro pela PF, Flávio Bolsonaro escreveu ao dono do Banco Master: 'Irmão, estou e estarei contigo sempre, não tem meia conversa entre a gente'. A mensagem integra conversas sobre repasses para o filme Dark Horse reveladas em maio de 2026; Flávio, que antes dissera não conhecer Vorcaro, confirmou a troca de mensagens e negou irregularidades.",
+  "fontes": [
+   {
+    "n": "Metrópoles",
+    "u": "https://www.metropoles.com/brasil/fala-irmaozao-veja-trocas-de-mensagens-entre-flavio-bolsonaro-e-vorcaro"
+   },
+   {
+    "n": "Aos Fatos",
+    "u": "https://www.aosfatos.org/noticias/flavio-mentiu-ao-menos-43-vezes-sobre-envolvimento-com-vorcaro/"
    }
   ]
  },
