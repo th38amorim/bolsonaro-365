@@ -334,6 +334,20 @@ window.CASOS = [
   ]
  },
  {
+  "d": "2019-01-01",
+  "t": "sem",
+  "pessoa": "jair",
+  "quem": "Jair Bolsonaro",
+  "titulo": "Discurso de posse traz afirmações falsas",
+  "texto": "No discurso de posse no Congresso, em 1º de janeiro de 2019, Bolsonaro disse respeitar o referendo de 2005, 'quando [o povo] optou, nas urnas, pelo direito à legítima defesa', e prometeu combater a 'ideologia de gênero'. Segundo o Aos Fatos, as duas afirmações são falsas: o referendo tratou da proibição do comércio de armas, não da legítima defesa, e não há comprovação da suposta conspiração que o termo 'ideologia de gênero' descreve.",
+  "fontes": [
+   {
+    "n": "Aos Fatos",
+    "u": "https://www.aosfatos.org/noticias/o-que-e-e-o-que-nao-e-fato-no-discurso-de-posse-de-bolsonaro-no-congresso/"
+   }
+  ]
+ },
+ {
   "d": "2019-01-04",
   "t": "sem",
   "pessoa": "jair",
@@ -1084,6 +1098,24 @@ window.CASOS = [
    {
     "n": "JB",
     "u": "https://www.jb.com.br/pais/politica/2020/01/1021892-desembargador-vota-por-anular-quebra-de-sigilo-de-flavio-bolsonaro--e-julgamento-e-adiado.html"
+   }
+  ]
+ },
+ {
+  "d": "2020-02-05",
+  "t": "sem",
+  "pessoa": "jair",
+  "quem": "Jair Bolsonaro",
+  "titulo": "'Eu zero o federal se zerarem o ICMS', desafia Bolsonaro",
+  "texto": "Em 5 de fevereiro de 2020, Bolsonaro desafiou os governadores a zerar o ICMS sobre combustíveis em troca de ele zerar os tributos federais, e disse que havia baixado o combustível três vezes sem efeito na bomba. A Fenafisco classificou a proposta de irresponsável por 'chantagear publicamente' os estados, que dependem do ICMS, cuja alíquota chega a 30% em alguns deles.",
+  "fontes": [
+   {
+    "n": "Jornal Opção",
+    "u": "https://www.jornalopcao.com.br/ultimas-noticias/bolsonaro-lanca-desafio-a-governadores-eu-zero-o-federal-se-eles-zerarem-o-icms-234698/"
+   },
+   {
+    "n": "Congresso em Foco",
+    "u": "https://www.congressoemfoco.com.br/noticia/18583/bolsonaro-e-irresponsavel-ao-propor-icms-zero-sobre-combustiveis-diz-fenafisco"
    }
   ]
  },
@@ -5441,6 +5473,20 @@ window.CASOS = [
   ]
  },
  {
+  "d": "2026-10-01",
+  "t": "sem",
+  "pessoa": "flavio",
+  "quem": "Flávio Bolsonaro",
+  "titulo": "Em live, Flávio diz que governo do pai não teve corrupção",
+  "texto": "Em live de 1º de outubro de 2026, transmitida no lugar do debate cancelado da TV Globo, Flávio Bolsonaro disse que 'não tinha corrupção' no governo de Jair Bolsonaro e chamou Lula de 'pai do tigrinho'. Segundo a Lupa, as duas falas são falsas: o governo do pai enfrentou acusações como as do escândalo dos pastores do MEC e do orçamento secreto, e a lei das apostas foi sancionada por Michel Temer em 2018, sem regulamentação no governo Bolsonaro.",
+  "fontes": [
+   {
+    "n": "Agência Lupa",
+    "u": "https://www.agencialupa.org/checagem/2026/10/01/ao-vivo-checagem-da-live-de-flavio-bolsonaro/"
+   }
+  ]
+ },
+ {
   "d": "2026-10-09",
   "t": "sem",
   "pessoa": "eduardo",
@@ -5476,6 +5522,24 @@ window.CASOS = [
    }
   ],
   "pessoa": "flavio"
+ },
+ {
+  "d": "2026-10-12",
+  "t": "sem",
+  "pessoa": "flavio",
+  "quem": "Flávio Bolsonaro",
+  "titulo": "TSE manda Flávio apagar vídeo enganoso sobre ato pró-Lula",
+  "texto": "Em 12 de outubro de 2026, o ministro do TSE Marco Aurélio Bellizze deu 24 horas para Flávio Bolsonaro apagar publicação que associava à manifestação pró-Lula na Avenida Paulista um vídeo de uma mulher aspirando pó branco. Segundo a decisão, houve 'grave manipulação por descontextualização': o vídeo já circulava antes do ato, publicado por perfis de outros países. A ordem também atingiu posts de Carlos Bolsonaro.",
+  "fontes": [
+   {
+    "n": "Brasil de Fato",
+    "u": "https://www.brasildefato.com.br/2026/10/13/tse-da-24-horas-para-flavio-bolsonaro-excluir-video-enganoso-sobre-ato-pro-lula/"
+   },
+   {
+    "n": "Diário do Grande ABC",
+    "u": "https://www.dgabc.com.br/Noticia/4352388/flavio-bolsonaro-e-obrigado-a-apagar-video-enganoso-sobre-ato-pro-lula"
+   }
+  ]
  },
  {
   "d": "2026-10-16",
