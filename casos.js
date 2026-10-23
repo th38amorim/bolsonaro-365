@@ -872,6 +872,25 @@ window.CASOS = [
   ]
  },
  {
+  "d": "2019-07-26",
+  "t": "sem",
+  "pessoa": "aliado",
+  "quem": "Sergio Moro, ministro da Justiça de Bolsonaro",
+  "titulo": "Portaria 666 prevê deportação sumária de 'perigosos'",
+  "texto": "O Diário Oficial publicou a portaria 666 do Ministério da Justiça, assinada por Sergio Moro, que previa impedimento de entrada e deportação sumária de estrangeiros considerados 'perigosos' para a segurança do país. A norma foi associada ao jornalista Glenn Greenwald, do The Intercept, que divulgava mensagens atribuídas a integrantes da Lava Jato. A procuradora-geral Raquel Dodge questionou a portaria no STF, e Moro a alterou em outubro.",
+  "resp": "Moro afirmou que a norma não se aplicaria a Glenn Greenwald.",
+  "fontes": [
+   {
+    "n": "Poder360",
+    "u": "https://www.poder360.com.br/justica/ministerio-da-justica-publica-novas-regras-para-deportacao-de-estrangeiros/"
+   },
+   {
+    "n": "Jornal Opção",
+    "u": "https://www.jornalopcao.com.br/ultimas-noticias/moro-diz-que-glenn-nao-seria-afetado-por-portaria-666-199458/"
+   }
+  ]
+ },
+ {
   "d": "2019-07-29",
   "t": "sem",
   "pessoa": "jair",
@@ -1150,6 +1169,35 @@ window.CASOS = [
   ]
  },
  {
+  "d": "2020-02-21",
+  "t": "den",
+  "pessoa": "aliado",
+  "quem": "Paulo Guedes, ministro da Economia de Bolsonaro",
+  "titulo": "Servidores levam Guedes à PGR por chamá-los de parasitas",
+  "texto": "A Conacate, confederação de carreiras típicas de Estado, apresentou representação à PGR contra o ministro da Economia, Paulo Guedes, por abuso de autoridade. O motivo foi a fala de 7 de fevereiro em que, ao comentar o funcionalismo, Guedes disse que 'o cara virou um parasita' e que 'o hospedeiro tá morrendo'. A entidade apontou 'assédio moral coletivo' e quebra do dever de decoro.",
+  "resp": "O Ministério da Economia disse que não comentaria o caso.",
+  "fontes": [
+   {
+    "n": "Poder360",
+    "u": "https://www.poder360.com.br/justica/funcionarios-publicos-acionam-pgr-contra-paulo-guedes-por-ofensas-a-categoria/"
+   }
+  ]
+ },
+ {
+  "d": "2020-02-29",
+  "t": "sem",
+  "pessoa": "jair",
+  "quem": "Jair Bolsonaro",
+  "titulo": "Bolsonaro diz que tortura na ditadura 'era tudo cascata'",
+  "texto": "No Palácio da Alvorada, Bolsonaro recebeu um militar que, segundo ele, atuou 'na caça a Lamarca' e chamou o guerrilheiro de 'herói do PT'. Ao ouvir de um apoiador que a ditadura teve muita tortura, respondeu que 'era tudo cascata' e que a maioria das alegações serviria 'para ganhar indenização'. O vídeo do encontro foi publicado nas redes do presidente.",
+  "fontes": [
+   {
+    "n": "Poder360",
+    "u": "https://www.poder360.com.br/governo/bolsonaro-encontra-se-com-soldado-que-teria-atuado-na-caca-a-lamarca/"
+   }
+  ]
+ },
+ {
   "d": "2020-03-09",
   "t": "sem",
   "pessoa": "jair",
@@ -1199,6 +1247,21 @@ window.CASOS = [
    {
     "n": "Congresso em Foco",
     "u": "https://congressoemfoco.com.br/saude/suspeito-de-ter-contraido-coronavirus-bolsonaro-faz-live-de-mascara-assista"
+   }
+  ]
+ },
+ {
+  "d": "2020-03-13",
+  "t": "sem",
+  "pessoa": "eduardo",
+  "quem": "Eduardo Bolsonaro",
+  "titulo": "Fox diz que Eduardo confirmou teste positivo do pai",
+  "texto": "A Fox News afirmou que Eduardo Bolsonaro confirmou à emissora que o pai havia testado positivo para o coronavírus em exame preliminar, depois da viagem da comitiva presidencial aos EUA. Eduardo negou ter passado a informação e disse que a emissora deu o 'furo errado'. Jair Bolsonaro divulgou nas redes que o teste deu negativo.",
+  "resp": "Eduardo afirmou: 'Eu nunca sequer recebi essa informação'.",
+  "fontes": [
+   {
+    "n": "Poder360",
+    "u": "https://www.poder360.com.br/governo/fox-news-diz-que-eduardo-bolsonaro-havia-confirmado-positivo-do-pai/"
    }
   ]
  },
@@ -1421,6 +1484,24 @@ window.CASOS = [
   ]
  },
  {
+  "d": "2020-05-02",
+  "t": "inv",
+  "pessoa": "jair",
+  "quem": "Jair Bolsonaro",
+  "titulo": "Moro depõe 8 horas à PF contra Bolsonaro",
+  "texto": "O ex-ministro da Justiça Sergio Moro prestou depoimento de cerca de oito horas à PF em Curitiba, no inquérito autorizado pelo STF que apurava a acusação de que Bolsonaro tentou interferir na corporação. Segundo o Poder360, Moro reafirmou as acusações, disse que o presidente pediu por mensagem a troca do superintendente da PF no Rio e entregou áudios, e-mails e conversas. No mesmo dia, Bolsonaro chamou o ex-ministro de 'Judas' no Facebook.",
+  "fontes": [
+   {
+    "n": "Poder360",
+    "u": "https://www.poder360.com.br/justica/sergio-moro-fala-por-8-horas-e-reafirma-acusacoes-contra-bolsonaro/"
+   },
+   {
+    "n": "InfoMoney",
+    "u": "https://www.infomoney.com.br/politica/os-pilares-e-as-implicacoes-do-depoimento-de-moro-contra-bolsonaro-a-pf/"
+   }
+  ]
+ },
+ {
   "d": "2020-05-05",
   "t": "inv",
   "pessoa": "jair",
@@ -1510,6 +1591,20 @@ window.CASOS = [
    {
     "n": "Jornal de Brasília",
     "u": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/urgente-celso-de-mello-autoriza-divulgacao-do-video-de-reuniao-ministerial/"
+   }
+  ]
+ },
+ {
+  "d": "2020-05-26",
+  "t": "dec",
+  "pessoa": "aliado",
+  "quem": "Abraham Weintraub, ministro da Educação de Bolsonaro",
+  "titulo": "Moraes manda PF ouvir Weintraub por ataque ao STF",
+  "texto": "O ministro Alexandre de Moraes determinou que o então ministro da Educação, Abraham Weintraub, fosse ouvido pela PF em até cinco dias no inquérito das fake news. O motivo foi a fala na reunião ministerial de 22 de abril: 'Por mim, botava esses vagabundos todos na cadeia. Começando no STF'. Moraes classificou a manifestação como 'gravíssima'.",
+  "fontes": [
+   {
+    "n": "Poder360",
+    "u": "https://www.poder360.com.br/governo/moraes-da-5-dias-para-weintraub-explicar-ataques-ao-stf/"
    }
   ]
  },
@@ -1967,6 +2062,21 @@ window.CASOS = [
   ]
  },
  {
+  "d": "2020-10-02",
+  "t": "sem",
+  "pessoa": "michelle",
+  "quem": "Michelle Bolsonaro",
+  "titulo": "Doação para testes de covid vai a programa de Michelle",
+  "texto": "O Planalto explicou por que R$ 7,5 milhões doados pela Marfrig em março para a compra de 100 mil testes rápidos de covid-19 pelo Ministério da Saúde foram parar no Pátria Voluntária, programa coordenado por Michelle Bolsonaro. O caso foi revelado pela Folha de S.Paulo. Segundo a Folha, a empresa afirma que a mudança de destino partiu do governo federal.",
+  "resp": "A Secom disse que a lei impede a Saúde de receber recursos privados, que o ministério declinou da doação porque 'não precisava mais' dos testes e que a Marfrig optou por repassar o valor ao programa.",
+  "fontes": [
+   {
+    "n": "Poder360",
+    "u": "https://www.poder360.com.br/brasil/sobre-repasse-a-programa-de-michelle-planalto-diz-que-saude-nao-precisava-mais/"
+   }
+  ]
+ },
+ {
   "d": "2020-10-07",
   "t": "sem",
   "pessoa": "jair",
@@ -2104,6 +2214,20 @@ window.CASOS = [
   ]
  },
  {
+  "d": "2020-11-13",
+  "t": "den",
+  "pessoa": "jair",
+  "quem": "Jair Bolsonaro",
+  "titulo": "Órgão da PGR vê possível racismo em fala de Bolsonaro",
+  "texto": "A Procuradoria Federal dos Direitos do Cidadão, órgão da PGR, afirmou que falas de Bolsonaro no Maranhão podem, em tese, configurar crime de racismo. Em 29 de outubro, ao tomar Guaraná Jesus, ele disse: 'Agora eu virei boiola igual maranhense, é isso?'. O subprocurador Carlos Vilhena enviou a representação do PSOL ao procurador-geral Augusto Aras, único que pode denunciar o presidente ao STF.",
+  "fontes": [
+   {
+    "n": "Poder360",
+    "u": "https://www.poder360.com.br/governo/bolsonaro-cometeu-crime-de-racismo-ao-falar-guarana-jesus-diz-orgao-da-pgr/"
+   }
+  ]
+ },
+ {
   "d": "2020-11-17",
   "t": "inv",
   "pessoa": "aliado",
@@ -2114,6 +2238,20 @@ window.CASOS = [
    {
     "n": "Congresso em Foco",
     "u": "https://www.congressoemfoco.com.br/artigo/22644/stf-manda-prender-oswaldo-eustaquio"
+   }
+  ]
+ },
+ {
+  "d": "2020-11-18",
+  "t": "sem",
+  "pessoa": "jair",
+  "quem": "Governo Jair Bolsonaro",
+  "titulo": "Saúde diz que não há remédio para covid e apaga post",
+  "texto": "O Ministério da Saúde respondeu a um seguidor no Twitter que 'não existem vacina, alimento específico, substância ou remédio que previnam ou possam acabar com a Covid-19'. A publicação foi apagada no mesmo dia. Segundo o Poder360, a resposta contrariava Bolsonaro, que defendia repetidamente medicamentos sem eficácia comprovada contra a doença, como azitromicina e cloroquina.",
+  "fontes": [
+   {
+    "n": "Poder360",
+    "u": "https://www.poder360.com.br/governo/ministerio-da-saude-publica-que-nao-ha-remedio-contra-covid-19-depois-apaga/"
    }
   ]
  },
@@ -2180,6 +2318,21 @@ window.CASOS = [
   ]
  },
  {
+  "d": "2020-12-05",
+  "t": "inv",
+  "pessoa": "eduardo",
+  "quem": "Eduardo Bolsonaro",
+  "titulo": "Eduardo nega à PF ter incentivado atos antidemocráticos",
+  "texto": "Veio a público o depoimento de mais de seis horas de Eduardo Bolsonaro à PF no inquérito do STF que apura o financiamento de atos com pautas antidemocráticas, relatado por Alexandre de Moraes. Segundo o Poder360, com base no Estadão, ele negou ter incentivado atos que pediam o fechamento do Congresso e do STF e confirmou ter participado de reunião com o blogueiro Allan dos Santos, também investigado.",
+  "resp": "Eduardo negou ter repassado mensagens falsas e ter vínculo informal com o governo.",
+  "fontes": [
+   {
+    "n": "Poder360",
+    "u": "https://www.poder360.com.br/congresso/eduardo-bolsonaro-nega-ter-incentivado-atos-com-pautas-antidemocraticas/"
+   }
+  ]
+ },
+ {
   "d": "2020-12-11",
   "t": "sem",
   "pessoa": "flavio",
@@ -2212,6 +2365,20 @@ window.CASOS = [
    {
     "n": "Poder360",
     "u": "https://www.poder360.com.br/brasil/pgr-investiga-abin-por-suposta-ajuda-a-defesa-de-flavio-bolsonaro/"
+   }
+  ]
+ },
+ {
+  "d": "2020-12-31",
+  "t": "sem",
+  "pessoa": "jair",
+  "quem": "Jair Bolsonaro",
+  "titulo": "Bolsonaro repete que não tomará vacina contra covid",
+  "texto": "Em live no Guarujá (SP), no último dia de 2020, Bolsonaro afirmou novamente que não tomaria a vacina contra a covid-19 por já ter anticorpos. 'Quem quiser pode tomar', disse. A declaração ocorreu quando o país ainda não havia iniciado a vacinação.",
+  "fontes": [
+   {
+    "n": "Poder360",
+    "u": "https://www.poder360.com.br/brasil/bolsonaro-diz-novamente-que-nao-tomara-vacina-por-ja-ter-anticorpos/"
    }
   ]
  },
@@ -2698,6 +2865,24 @@ window.CASOS = [
   ]
  },
  {
+  "d": "2021-05-25",
+  "t": "sem",
+  "pessoa": "aliado",
+  "quem": "Mayra Pinheiro, secretária do Ministério da Saúde no governo Bolsonaro",
+  "titulo": "'Capitã cloroquina' dá informações falsas à CPI",
+  "texto": "A secretária de Gestão do Trabalho do Ministério da Saúde, Mayra Pinheiro, defendeu a cloroquina em depoimento à CPI da Covid. Segundo o Aos Fatos, ela fez afirmações falsas, como a de que o ministério nunca indicou tratamentos, a de que a hidroxicloroquina é eficaz no início da doença e a de que o aplicativo TrateCov não chegou a ser lançado.",
+  "fontes": [
+   {
+    "n": "Aos Fatos",
+    "u": "https://www.aosfatos.org/noticias/mayra-pinheiro-usa-informacoes-falsas-para-defender-cloroquina-na-cpi/"
+   },
+   {
+    "n": "Exame",
+    "u": "https://exame.com/brasil/cinco-assuntos-que-marcaram-o-depoimento-de-mayra-pinheiro-a-cpi"
+   }
+  ]
+ },
+ {
   "d": "2021-06-01",
   "t": "sem",
   "pessoa": "aliado",
@@ -2788,6 +2973,24 @@ window.CASOS = [
   ]
  },
  {
+  "d": "2021-06-28",
+  "t": "den",
+  "pessoa": "jair",
+  "quem": "Jair Bolsonaro",
+  "titulo": "Senadores acusam Bolsonaro de prevaricação no caso Covaxin",
+  "texto": "Os senadores Randolfe Rodrigues, Fabiano Contarato e Jorge Kajuru apresentaram ao STF uma notícia-crime contra Bolsonaro por suposta prevaricação no caso da vacina Covaxin. Segundo os relatos dos irmãos Miranda à CPI da Covid, o presidente foi avisado em março de suspeitas na compra e disse que acionaria a PF, o que, segundo os senadores, não ocorreu. A relatoria ficou com a ministra Rosa Weber.",
+  "fontes": [
+   {
+    "n": "CNN Brasil",
+    "u": "https://www.cnnbrasil.com.br/politica/randolfe-protocola-noticia-crime-contra-bolsonaro-e-pede-prorrogacao-da-cpi/"
+   },
+   {
+    "n": "Poder360",
+    "u": "https://www.poder360.com.br/governo/caso-covaxin-senadores-apresentam-noticia-crime-contra-bolsonaro-ao-stf/"
+   }
+  ]
+ },
+ {
   "d": "2021-06-29",
   "t": "den",
   "pessoa": "jair",
@@ -2821,6 +3024,21 @@ window.CASOS = [
    {
     "n": "A Gazeta",
     "u": "https://www.agazeta.com.br/brasil/conheca-indicios-da-atuacao-de-jair-bolsonaro-no-caso-das-rachadinhas-0721"
+   }
+  ]
+ },
+ {
+  "d": "2021-07-06",
+  "t": "inv",
+  "pessoa": "renan",
+  "quem": "Jair Renan Bolsonaro",
+  "titulo": "Marinho explica reunião com Jair Renan e empresários",
+  "texto": "Na Câmara, o ministro Rogério Marinho foi questionado sobre uma reunião de 2020 com representantes do grupo Gramazini, da qual Jair Renan participou. Segundo o Poder360, a PF abriu inquérito em março de 2021 para apurar suspeitas de tráfico de influência e lavagem de dinheiro ligadas a um carro elétrico que Renan teria recebido de uma empresa sócia do grupo cerca de um mês antes do encontro. Marinho disse que Renan 'entrou e saiu calado' e negou relação entre a presença dele e o encontro.",
+  "resp": "O advogado Frederick Wassef negou que Renan tenha recebido o carro e negou irregularidades.",
+  "fontes": [
+   {
+    "n": "Poder360",
+    "u": "https://www.poder360.com.br/governo/ele-entrou-e-saiu-calado-diz-rogerio-marinho-sobre-reuniao-com-jair-renan/"
    }
   ]
  },
@@ -2860,6 +3078,20 @@ window.CASOS = [
   ]
  },
  {
+  "d": "2021-07-28",
+  "t": "sem",
+  "pessoa": "jair",
+  "quem": "Jair Bolsonaro",
+  "titulo": "STF desmente Bolsonaro: 'mentira contada mil vezes'",
+  "texto": "O STF publicou nas redes sociais que 'é falso que o Supremo tenha tirado poderes do presidente da República de atuar na pandemia'. A reação veio depois de Bolsonaro dizer a apoiadores, em 24 de julho, que 'se eu tivesse coordenando a pandemia, não teria morrido tanta gente'. Em outra publicação, o tribunal afirmou que 'uma mentira contada mil vezes não vira verdade'.",
+  "fontes": [
+   {
+    "n": "Poder360",
+    "u": "https://www.poder360.com.br/governo/mentira-contada-mil-vezes-nao-vira-verdade-diz-stf-sobre-falas-de-bolsonaro/"
+   }
+  ]
+ },
+ {
   "d": "2021-07-31",
   "t": "sem",
   "pessoa": "jair",
@@ -2888,6 +3120,34 @@ window.CASOS = [
   ]
  },
  {
+  "d": "2021-08-27",
+  "t": "sem",
+  "pessoa": "jair",
+  "quem": "Jair Bolsonaro",
+  "titulo": "'Tem que todo mundo comprar fuzil, pô', diz Bolsonaro",
+  "texto": "Em frente ao Palácio da Alvorada, Bolsonaro disse a apoiadores que 'tem que todo mundo comprar fuzil, pô' e que 'povo armado jamais será escravizado', ao defender a ampliação do acesso a armas. Na mesma conversa, chamou de idiotas os críticos da ideia e quem dizia que ele daria um golpe. A fala veio às vésperas dos atos de 7 de setembro.",
+  "fontes": [
+   {
+    "n": "Poder360",
+    "u": "https://www.poder360.com.br/governo/tem-que-todo-mundo-comprar-fuzil-po-diz-bolsonaro/"
+   }
+  ]
+ },
+ {
+  "d": "2021-08-30",
+  "t": "sem",
+  "pessoa": "jair",
+  "quem": "Jair Bolsonaro",
+  "titulo": "Bolsonaro fala em 'favela de índio' em Roraima",
+  "texto": "Na saída do Palácio da Alvorada, Bolsonaro disse a apoiadores que as demarcações 'acabaram com Roraima' e perguntou: 'Tem alguma favela de índio lá?'. A fala ocorreu enquanto cerca de 5.000 indígenas acampavam em Brasília contra a tese do marco temporal, segundo o Poder360.",
+  "fontes": [
+   {
+    "n": "Poder360",
+    "u": "https://www.poder360.com.br/governo/demarcacoes-acabaram-com-roraima-e-criaram-favela-de-indio-diz-bolsonaro/"
+   }
+  ]
+ },
+ {
   "d": "2021-08-31",
   "t": "inv",
   "pessoa": "carlos",
@@ -2903,6 +3163,21 @@ window.CASOS = [
    {
     "n": "g1",
     "u": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2021/08/31/carlos-bolsonaro-tem-sigilos-fiscal-e-bancario-quebrados-pela-justica-em-apuracao-sobre-funcionarios-fantasmas-na-camara-do-rio"
+   }
+  ]
+ },
+ {
+  "d": "2021-09-08",
+  "t": "dec",
+  "pessoa": "jair",
+  "quem": "Jair Bolsonaro",
+  "titulo": "SP multa Bolsonaro por ato sem máscara na Paulista",
+  "texto": "A Vigilância Sanitária de São Paulo autuou Bolsonaro por não usar máscara no ato de 7 de setembro na Avenida Paulista, com base na lei federal que tornou o item obrigatório em eventos públicos. Segundo o governo paulista, foi a sétima autuação do presidente no estado, e o valor ainda seria definido. Outras 13 pessoas também foram multadas.",
+  "resp": "Bolsonaro recorreu de todas as autuações, segundo o Poder360.",
+  "fontes": [
+   {
+    "n": "Poder360",
+    "u": "https://www.poder360.com.br/brasil/governo-de-sao-paulo-multa-bolsonaro-por-nao-usar-mascara-em-ato-na-paulista/"
    }
   ]
  },
@@ -3009,6 +3284,21 @@ window.CASOS = [
    {
     "n": "CNN Brasil",
     "u": "https://www.cnnbrasil.com.br/politica/alexandre-de-moraes-determina-prisao-de-allan-dos-santos/"
+   }
+  ]
+ },
+ {
+  "d": "2021-10-06",
+  "t": "inv",
+  "pessoa": "aliado",
+  "quem": "Paulo Guedes, ministro da Economia de Bolsonaro",
+  "titulo": "Câmara convoca Guedes para explicar offshore",
+  "texto": "O plenário da Câmara aprovou, por 310 votos a 142, a convocação do ministro da Economia, Paulo Guedes, para explicar a offshore Dreadnoughts International Group, aberta em paraíso fiscal com cerca de US$ 9,5 milhões. Segundo a série Pandora Papers, do Poder360 com o ICIJ, Guedes manteve a empresa ativa mesmo depois de assumir o ministério, em 2019.",
+  "resp": "A defesa afirmou que Guedes deixou a administração da empresa em dezembro de 2018, enviou documentos à PGR e negou que ele tenha se beneficiado do cargo.",
+  "fontes": [
+   {
+    "n": "Poder360",
+    "u": "https://www.poder360.com.br/brasil/plenario-da-camara-aprova-convocacao-de-paulo-guedes-para-explicar-offshore/"
    }
   ]
  },
@@ -3196,6 +3486,20 @@ window.CASOS = [
   ]
  },
  {
+  "d": "2022-01-31",
+  "t": "inv",
+  "pessoa": "jair",
+  "quem": "Jair Bolsonaro",
+  "titulo": "Bolsonaro diz que faltou à PF por orientação da AGU",
+  "texto": "Em entrevista à Record TV, Bolsonaro disse ter seguido 'as orientações do advogado-geral da União, Bruno Bianco' ao não comparecer ao depoimento na PF marcado para 28 de janeiro. O depoimento havia sido determinado pelo ministro Alexandre de Moraes, que rejeitou recurso da AGU, no inquérito sobre o vazamento de investigação sigilosa a respeito de ataque hacker ao TSE.",
+  "fontes": [
+   {
+    "n": "Poder360",
+    "u": "https://www.poder360.com.br/governo/agu-orientou-contra-o-depoimento-a-pf-diz-bolsonaro/"
+   }
+  ]
+ },
+ {
   "d": "2022-02-11",
   "t": "sem",
   "pessoa": "jair",
@@ -3210,6 +3514,34 @@ window.CASOS = [
    {
     "n": "Congresso em Foco",
     "u": "https://congressoemfoco.com.br/area/governo/bolsonaro-cria-programa-que-estimula-garimpo-na-amazonia-legal"
+   }
+  ]
+ },
+ {
+  "d": "2022-02-14",
+  "t": "inv",
+  "pessoa": "jair",
+  "quem": "Jair Bolsonaro",
+  "titulo": "PF vê 'propósito de desinformar' em live de Bolsonaro",
+  "texto": "O ministro Alexandre de Moraes enviou à PGR o relatório da PF sobre a live de 29 de julho de 2021, em que Bolsonaro prometeu uma 'prova bomba' de fraude nas urnas e não a apresentou. Segundo a PF, a transmissão teve 'nítido propósito de desinformar' sobre o sistema de votação, com 'atuação direta e relevante' do presidente. Moraes deu 15 dias para o procurador-geral Augusto Aras se manifestar.",
+  "fontes": [
+   {
+    "n": "Poder360",
+    "u": "https://www.poder360.com.br/justica/moraes-manda-para-pgr-relatorio-da-pf-sobre-live-de-bolsonaro/"
+   }
+  ]
+ },
+ {
+  "d": "2022-02-17",
+  "t": "sem",
+  "pessoa": "jair",
+  "quem": "Jair Bolsonaro",
+  "titulo": "EUA criticam 'solidariedade' de Bolsonaro à Rússia",
+  "texto": "O Departamento de Estado dos EUA criticou a declaração de Bolsonaro a Vladimir Putin, em Moscou, de que 'somos solidários à Rússia', feita dias antes da invasão da Ucrânia. Segundo a nota, a postura do Brasil 'parece ignorar a agressão armada por uma grande potência contra um vizinho menor', e o momento da declaração 'não poderia ser pior'.",
+  "fontes": [
+   {
+    "n": "Poder360",
+    "u": "https://www.poder360.com.br/internacional/eua-criticam-postura-de-bolsonaro-em-visita-a-putin/"
    }
   ]
  },
@@ -3293,6 +3625,20 @@ window.CASOS = [
    {
     "n": "O Globo (clipping do Senado)",
     "u": "https://www2.senado.leg.br/jspui/bitstream/id/962344/2/noticia.html"
+   }
+  ]
+ },
+ {
+  "d": "2022-04-18",
+  "t": "sem",
+  "pessoa": "aliado",
+  "quem": "Hamilton Mourão, vice-presidente de Bolsonaro",
+  "titulo": "Mourão ironiza áudios de tortura: 'trazer do túmulo?'",
+  "texto": "Questionado sobre áudios inéditos do Superior Tribunal Militar em que ministros da ditadura discutem casos de tortura, o vice-presidente Hamilton Mourão riu e disse: 'Os caras já morreram tudo, pô. Vai trazer os caras de volta do túmulo?'. As gravações foram analisadas pelo historiador Carlos Fico e divulgadas pela jornalista Míriam Leitão, no Globo, um dia antes.",
+  "fontes": [
+   {
+    "n": "Poder360",
+    "u": "https://www.poder360.com.br/governo/mourao-sobre-audios-da-ditadura-vao-trazer-os-caras-do-tumulo/"
    }
   ]
  },
@@ -3615,6 +3961,20 @@ window.CASOS = [
   ]
  },
  {
+  "d": "2022-11-02",
+  "t": "sem",
+  "pessoa": "flavio",
+  "quem": "Flávio Bolsonaro",
+  "titulo": "Flávio exalta protestos contra vitória de Lula",
+  "texto": "Em meio a bloqueios de rodovias em 16 estados e protestos contra a vitória de Lula na eleição presidencial, o senador Flávio Bolsonaro elogiou os manifestantes no Twitter. Segundo o Poder360, ele chamou os atos de 'espontâneos' e pediu que confiassem no 'capitão', referência ao pai. No mesmo dia, Jair Bolsonaro gravou vídeo pedindo a liberação das estradas.",
+  "fontes": [
+   {
+    "n": "Poder360",
+    "u": "https://www.poder360.com.br/congresso/flavio-bolsonaro-exalta-manifestacoes-confiem-no-capitao/"
+   }
+  ]
+ },
+ {
   "d": "2022-12-29",
   "t": "den",
   "pessoa": "jair",
@@ -3747,6 +4107,21 @@ window.CASOS = [
    {
     "n": "IstoÉ Dinheiro",
     "u": "https://istoedinheiro.com.br/chefe-da-receita-foi-acionado-para-liberar-joias"
+   }
+  ]
+ },
+ {
+  "d": "2023-03-07",
+  "t": "inv",
+  "pessoa": "jair",
+  "quem": "Jair Bolsonaro",
+  "titulo": "Mauro Cid confirma 2º pacote de joias com Bolsonaro",
+  "texto": "O tenente-coronel Mauro Cid, ex-ajudante de ordens de Bolsonaro, confirmou ao Estadão que um segundo conjunto de joias dado pelo governo da Arábia Saudita estava no acervo pessoal do ex-presidente. Os itens, avaliados em cerca de R$ 400 mil, entraram no país em condições parecidas com as do pacote apreendido em Guarulhos. Segundo o Poder360, o recibo contradiz a versão de que as joias iriam para o acervo da União.",
+  "resp": "A posição de Bolsonaro era de que as joias doadas pelo governo saudita seriam destinadas ao acervo da União.",
+  "fontes": [
+   {
+    "n": "Poder360",
+    "u": "https://www.poder360.com.br/justica/mauro-cid-diz-que-2o-pacote-de-joias-esta-com-bolsonaro/"
    }
   ]
  },
@@ -4235,6 +4610,21 @@ window.CASOS = [
    {
     "n": "Poder360",
     "u": "https://www.poder360.com.br/justica/bolsonaro-dormiu-duas-noites-na-embaixada-da-hungria-diz-nytimes/"
+   }
+  ]
+ },
+ {
+  "d": "2024-02-20",
+  "t": "dec",
+  "pessoa": "jair",
+  "quem": "Jair Bolsonaro",
+  "titulo": "Moraes nega dispensar Bolsonaro de depor à PF",
+  "texto": "O ministro Alexandre de Moraes negou novo pedido da defesa para dispensar Bolsonaro do depoimento à PF no inquérito sobre a suposta trama golpista, marcado para 22 de fevereiro. Segundo a decisão, o investigado não pode escolher data e horário do interrogatório, e o direito ao silêncio não autoriza recusa prévia a determinações legais. No mesmo dia, o presidente do STF, Luís Roberto Barroso, rejeitou o pedido de Bolsonaro para afastar Moraes da relatoria da Operação Tempus Veritatis.",
+  "resp": "A defesa afirmou que Bolsonaro não prestaria depoimento até ter acesso integral às mídias apreendidas pela PF e que não abria mão de ser ouvido em momento posterior.",
+  "fontes": [
+   {
+    "n": "A Gazeta",
+    "u": "https://www.agazeta.com.br/brasil/bolsonaro-tem-novas-derrotas-no-stf-ao-tentar-afastar-moraes-e-nao-ir-a-pf-0224"
    }
   ]
  },
