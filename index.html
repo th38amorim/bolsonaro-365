@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="description" content="Escolha o dia do seu aniversário e leia o que foi notícia sobre a família Bolsonaro naquela data, com link para a matéria.">
+<script data-goatcounter="https://thiagoamorim.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 <body>
 <title>Bolsonaro 365</title>
@@ -121,6 +122,9 @@ h1 span { color: var(--fg-3); }
 <script>
 const PIX = "b93dbf3d-611e-4d3a-ac9f-e32bb3058272";
 
+// contagem de eventos no GoatCounter; só existe na versão publicada no GitHub
+const evento = (path, title) => { try { window.goatcounter?.count?.({ path, title, event: true }); } catch (_) {} };
+
 // BR Code estático do Pix (padrão EMV do Banco Central), sem valor fixo
 function campo(id, v) { return id + String(v.length).padStart(2, "0") + v; }
 function crc16(s) {
@@ -208,7 +212,7 @@ function mostrar(m, d) {
   $("copiar-pix").onclick = e => {
     const b = e.currentTarget, rot = b.querySelector("span");
     navigator.clipboard.writeText(PIX_BR).then(() => {
-      b.classList.add("ok"); rot.textContent = "Copiado";
+      b.classList.add("ok"); rot.textContent = "Copiado"; evento("copiar-pix", "Copiou o Pix");
       setTimeout(() => { b.classList.remove("ok"); rot.textContent = "Copiar Pix copia e cola"; }, 2000);
     }).catch(() => {
       $("pix-manual").innerHTML = `<input class="manual" id="pix-campo" readonly aria-label="Código Pix copia e cola">`;
@@ -221,7 +225,7 @@ function mostrar(m, d) {
 }
 
 selMes.addEventListener("change", preencherDias);
-$("form").addEventListener("submit", e => { e.preventDefault(); mostrar(+selMes.value, +selDia.value); });
+$("form").addEventListener("submit", e => { e.preventDefault(); mostrar(+selMes.value, +selDia.value); evento("ver-dia", `${p2(+selDia.value)}/${p2(+selMes.value)}`); });
 
 const hoje = new Date();
 selMes.value = hoje.getMonth() + 1; preencherDias(); selDia.value = hoje.getDate();
