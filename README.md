@@ -14,10 +14,6 @@
 
 Entram denúncias, investigações, decisões judiciais, atos de governo polêmicos e declarações checadas por agências como Aos Fatos e Lupa. Envolve Jair, Flávio, Carlos, Eduardo, Jair Renan, Michelle e pessoas próximas, sempre com a ligação dita no texto.
 
-<p align="center">
-  <img src="docs/rodape.jpg" alt="Bloco de apoio com Pix e notas sobre fontes" width="440">
-</p>
-
 ## Aviso
 
 Conteúdo informativo e de crítica política, a partir de reportagens e documentos oficiais. Denúncia, investigação ou processo não é prova de culpa: vale a presunção de inocência. Casos anulados ou arquivados aparecem como tal. Os relatos refletem as fontes até a data de atualização e podem ter desdobramentos.
