@@ -4,14 +4,6 @@
   <a href="https://th38amorim.github.io/bolsonaro-365/"><strong>Abrir o site →</strong></a>
 </p>
 
-<p align="center">
-  <a href="https://th38amorim.github.io/bolsonaro-365/"><img src="docs/inicio.jpg" alt="Tela inicial: escolha do dia e do mês" width="440"></a>
-</p>
-
-<p align="center">
-  <img src="docs/materia.jpg" alt="Caso de 18 de junho de 2020: Queiroz é preso em Atibaia" width="440">
-</p>
-
 ## O acervo
 
 | | |
